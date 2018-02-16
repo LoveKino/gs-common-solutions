@@ -1,0 +1,9 @@
+{
+    "skeletonPath": "../skl.json",
+    "targetPath": "./target",
+    "context": {
+        "projectName": "simple_front_end",
+        "projectDescription": "test simple front-end skeleton class",
+        "author": "ddchen"
+    }
+}

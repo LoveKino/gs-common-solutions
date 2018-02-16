@@ -1,0 +1,37 @@
+{
+    "ignore": ["node_modules"],
+    "commands": {},
+    "subs": [{
+        "skeletonPath": "../../tool/gitignore/skl.json",
+        "targetPath": ".",
+        "contextPath": "."
+    }, {
+        "skeletonPath": "../../tool/mocha/skl.json",
+        "targetPath": ".",
+        "contextPath": "."
+    }, {
+        "skeletonPath": "../../tool/yargs/skl.json",
+        "targetPath": ".",
+        "contextPath": "."
+    }, {
+        "skeletonPath": "../../tool/license/mit/skl.json",
+        "targetPath": ".",
+        "contextPath": "."
+    }, {
+        "skeletonPath": "../../tool/doc/simple-readme/skl.json",
+        "targetPath": ".",
+        "contextPath": "."
+    }, {
+        "skeletonPath": "../../tool/typescript/skl.json",
+        "targetPath": ".",
+        "contextPath": "."
+    }, {
+        "skeletonPath": "../../tool/eslint/skl.json",
+        "targetPath": ".",
+        "contextPath": "."
+    }, {
+        "skeletonPath": "../../tool/node-benchmark/skl.json",
+        "targetPath": ".",
+        "contextPath": "."
+    }]
+}

@@ -1,0 +1,9 @@
+{
+    "skeletonPath": "../skl.json",
+    "targetPath": "./target",
+    "context": {
+        "projectName": "test_koa_server",
+        "projectDescription": "test koa server skeleton class",
+        "author": "ddchen"
+    }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "react-base-front",
+  "version": "0.0.1",
+  "description": "test react-base front-end skeleton class",
+  "main": "index.js",
+  "scripts": {
+    "watch": "webpack --watch",
+    "test": "mocha test/**/*.js",
+    "lint": "eslint src/**/*.js",
+    "dev": "open http://127.0.0.1:3000; python -m SimpleHTTPServer 3000"
+  },
+  "keywords": [],
+  "author": "ddchen",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.2.1",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-wildcard": "^3.0.1",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "eslint": "^4.16.0",
+    "file-loader": "^1.1.6",
+    "mocha": "^5.0.0",
+    "url-loader": "^0.6.2",
+    "webpack": "^3.10.0"
+  },
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-router-dom": "^4.2.2"
+  }
+}

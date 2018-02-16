@@ -1,0 +1,6 @@
+{
+    "ignore": [],
+    "commands": {
+        "after": "npm i @types/node tslint typescript --save-dev"
+    }
+}

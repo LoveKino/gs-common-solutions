@@ -1,0 +1,22 @@
+{
+  "name": "{{.projectName}}",
+  "version": "0.0.1",
+  "description": "{{.projectDescription}}",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -w",
+    "bench": "node ./benchmark/index.js",
+    "test": "mocha test/**/*.js",
+    "lint": "tslint src/**/*.ts"
+  },
+  "bin": {
+    "{{.projectName}}": "./bin/{{.projectName}}"
+  },
+  "keywords": [],
+  "author": "{{.author}}",
+  "license": "MIT",
+  "devDependencies": {
+  },
+  "dependencies": {
+  }
+}

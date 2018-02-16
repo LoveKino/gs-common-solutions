@@ -1,0 +1,36 @@
+{
+  "name": "test_koa_server",
+  "version": "0.0.1",
+  "description": "test koa server skeleton class",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -w",
+    "bench": "node ./benchmark/index.js",
+    "test": "mocha test/**/*.js",
+    "lint": "tslint src/**/*.ts"
+  },
+  "bin": {
+    "test_koa_server": "./bin/test_koa_server"
+  },
+  "keywords": [],
+  "author": "ddchen",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^9.3.0",
+    "babel-eslint": "^8.2.1",
+    "benchmark": "^2.1.4",
+    "eslint": "^4.16.0",
+    "microtime": "^2.1.7",
+    "mocha": "^5.0.0",
+    "tslint": "^5.9.1",
+    "typescript": "^2.6.2"
+  },
+  "dependencies": {
+    "koa": "^2.4.1",
+    "koa-router": "^7.3.0",
+    "koa-send": "^4.1.2",
+    "koa-session": "^5.8.1",
+    "log4js": "^2.5.2",
+    "yargs": "^10.1.1"
+  }
+}

@@ -1,0 +1,6 @@
+{
+    "ignore": [],
+    "commands": {
+        "after": "npm i benchmark microtime --save-dev"
+    }
+}

@@ -1,0 +1,15 @@
+#!/usr/bin/env node
+
+'use strict';
+
+// const {} = require('..');
+const yargs = require('yargs');
+
+yargs.usage(`Usage: {{.projectName}}
+    `).help('h').alias('h', 'help');
+
+const {
+    argv
+} = yargs;
+
+console.log(argv);

@@ -1,0 +1,27 @@
+{
+  "name": "test_node_lib",
+  "version": "0.0.1",
+  "description": "test node lib skeleton class",
+  "main": "index.js",
+  "scripts": {
+    "bench": "node ./benchmark/index.js",
+    "test": "mocha test/**/*.js",
+    "lint": "eslint src/**/*.js"
+  },
+  "bin": {
+    "test_node_lib": "./bin/test_node_lib"
+  },
+  "keywords": [],
+  "author": "ddchen",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "benchmark": "^2.1.4",
+    "eslint": "^4.16.0",
+    "microtime": "^2.1.7",
+    "mocha": "^5.0.0"
+  },
+  "dependencies": {
+    "yargs": "^10.1.1"
+  }
+}

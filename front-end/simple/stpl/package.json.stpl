@@ -1,0 +1,19 @@
+{
+  "name": "{{.projectName}}",
+  "version": "0.0.1",
+  "description": "{{.projectDescription}}",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "test": "mocha test/**/*.js",
+    "lint": "eslint src/**/*.js"
+  },
+  "keywords": [],
+  "author": "{{.author}}",
+  "license": "MIT",
+  "devDependencies": {
+  },
+  "dependencies": {
+  }
+}

@@ -1,0 +1,9 @@
+{
+    "skeletonPath": "../skl.json",
+    "targetPath": "./target",
+    "context": {
+        "projectName": "react-material-front",
+        "projectDescription": "test react-material front-end skeleton class",
+        "author": "ddchen"
+    }
+}

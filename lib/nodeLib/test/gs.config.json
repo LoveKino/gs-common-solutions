@@ -1,0 +1,9 @@
+{
+    "skeletonPath": "../skl.json",
+    "targetPath": "./target",
+    "context": {
+        "projectName": "test_node_lib",
+        "projectDescription": "test node lib skeleton class",
+        "author": "ddchen"
+    }
+}

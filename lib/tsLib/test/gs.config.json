@@ -1,0 +1,9 @@
+{
+    "skeletonPath": "../skl.json",
+    "targetPath": "./target",
+    "context": {
+        "projectName": "test_ts_lib",
+        "projectDescription": "test typescript lib skeleton class",
+        "author": "ddchen"
+    }
+}
