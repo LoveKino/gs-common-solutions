@@ -1,6 +1,6 @@
 {
     "ignore": [],
     "commands": {
-        "after": "npm i eslint --save-dev && npm i babel-eslint --save-dev"
+        "after": "npm i eslint --save-dev && npm i babel-eslint --save-dev && npm i eslint-plugin-react --save-dev"
     }
 }

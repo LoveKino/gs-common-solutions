@@ -1,6 +1,6 @@
 {
     "ignore": [],
     "commands": {
-        "after": "npm i webpack babel-core babel-loader babel-plugin-wildcard babel-preset-env babel-preset-react file-loader url-loader --save-dev"
+        "after": "npm i webpack webpack-cli babel-core babel-loader babel-plugin-wildcard babel-preset-env babel-preset-react file-loader url-loader --save-dev"
     }
 }
